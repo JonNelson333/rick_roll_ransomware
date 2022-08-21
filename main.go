@@ -138,7 +138,7 @@ func decrypt() {
                         fmt.Print(newcontent)
                 }
         }
-	fmt.Println("DECRYPT")
+	fmt.Printf("%v", files)
 }
 func videoplayer() {
 	time.AfterFunc(10 * time.Second, decrypt)
